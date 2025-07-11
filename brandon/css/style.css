@@ -354,6 +354,14 @@ button {
      padding-left: 10%;
 }
 
+#midil_img_ic {
+     padding-left: 8%;
+}
+
+#midil_img_faqs {
+     padding-left: 50%;
+}
+
 .midil_img::before {
      position: absolute;
      content: "";
