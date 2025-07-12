@@ -359,7 +359,7 @@ button {
 }
 
 #midil_img_faqs {
-     padding-left: 50%;
+     padding-left: 22%;
 }
 
 .midil_img::before {
@@ -763,7 +763,7 @@ ul.location_icon li {
      line-height: 16px;
      display: inline-block;
      text-align: center;
-     margin: 0 45px;
+     margin: 0 20px;
 }
 
 ul.location_icon li a {
