@@ -763,7 +763,7 @@ ul.location_icon li {
      line-height: 16px;
      display: inline-block;
      text-align: center;
-     margin: 0 20px;
+     margin: 0 15px;
 }
 
 ul.location_icon li a {
@@ -805,6 +805,14 @@ ul.location_icon li a:hover {
 
 .copyright a:hover {
      color: #ff0000;
+}
+
+.section-title {
+     text-align: center;
+     margin: 30px 0 20px 0;
+     font-size: 32px;
+     font-weight: bold;
+     color: #222;
 }
 
 
