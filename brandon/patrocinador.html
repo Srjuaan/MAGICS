@@ -30,19 +30,20 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
    </head>
    <!-- body -->
-   <body class="main-layout head_posstinhi">
+   <body class="main-layout head_posstinhi ">
       <!-- loader  -->
       <div class="loader_bg">
          <div class="loader"><img src="images/loading.gif" alt="#" /></div>
       </div>
       <!-- end loader -->
       <div id="mySidepanel" class="sidepanel">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
          <a href="index.html">Menu Principal</a>
          <a href="about.html">¿Quienes Somos?</a>
          <a href="noticias.html">Novedades y Noticias</a>
          <a href="contact.html">Inscripciones y Contaco</a>
-         <a class="active" href="Testimonials.html">Preguntas y Dudas</a>
-         <a href="patrocinador.html">Patrocinadores y Convenios</a>
+         <a href="Testimonials.html">Preguntas y Dudas</a>
+         <a class="active" href="patrocinador.html">Patrocinadores y Convenios</a>
       </div>
       <!-- header -->
       <header>
@@ -71,85 +72,50 @@
       </header>
       <!-- end header inner -->
       <!-- end header -->
-        <div class="red_bg">
+    <div class="red_bg">
        <div class="container">
           <div class="row">
              <div class="col-md-12">
                 <div class="titlepage">
-                     <h2>Preguntas Frequentes</h2>
+                    <h2>Patrocinios</h2>
                 </div>
              </div>
           </div>
        </div>
     </div>
-      <!-- testimonial section -->
-      <div id="testimonial" class="testimonial afbecros">
+     
+      <!-- contact section -->
+      <div id="contact" class="contact afbecros">
          <div class="container">
             <div class="row">
-               <div class="col-md-12">
-                  <div id="myCarousel" class="carousel slide testimonial_Carousel " data-ride="carousel">
-                     <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                     </ol>
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <div class="container">
-                              <div class="carousel-caption ">
-                                 <div class="row">
-                                    <div class="col-md-12">
-                                       <div class="testimonial_box">
-                                          <h3>markden</h3>
-                                          <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+               <div class="col-md-10 offset-md-1">
+                  <h3><center>Si estas inetresado en afiliarte o patrocinar a Magics CB no dudes en llamarnos.</center></h3>
+                  <br>
+                  <br>
+                  <form id="request" class="main_form">
+                     <div class="row">
+                        <div class="col-md-12 ">
+                           <input class="contactus" placeholder="Nombre" type="type" name="Name"> 
                         </div>
-                        <div class="carousel-item">
-                           <div class="container">
-                              <div class="carousel-caption">
-                                 <div class="row">
-                                    <div class="col-md-12">
-                                       <div class="testimonial_box">
-                                          <h3>markden</h3>
-                                          <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Numero de Telefono" type="type" name="Phone Number"> 
                         </div>
-                        <div class="carousel-item">
-                           <div class="container">
-                              <div class="carousel-caption">
-                                 <div class="row">
-                                    <div class="col-md-12">
-                                       <div class="testimonial_box">
-                                          <h3>markden</h3>
-                                          <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Email" type="type" name="Email">                          
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactusmess" placeholder="Mensaje" type="type" Message="Name">
+                        </div>
+                        <div class="col-md-12">
+                           <button class="send_btn">Enviar</button>
                         </div>
                      </div>
-                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                     <i class='fa fa-angle-left'></i>
-                     </a>
-                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                     <i class='fa fa-angle-right'></i>
-                     </a>
-                  </div>
+                  </form>
                </div>
             </div>
          </div>
       </div>
-      <!-- end testimonial section -->
-     
+      <!-- end contact section -->
       <!--  footer -->
 <footer>
          <div class="footer">
@@ -209,6 +175,5 @@
       </script>
    </body>
 </html>
-
 
 
