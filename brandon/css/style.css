@@ -839,6 +839,22 @@ ul.location_icon li a:hover {
      padding: 30px 0;
 }
 
+.categorias {
+     display: flex;
+     justify-content: space-between;
+     gap: 20px; /* espacio entre columnas */
+     flex-wrap: wrap; /* para que en móviles se acomode */
+     margin-top: 20px;
+}
+
+.categoria {
+     flex: 1 1 45%; /* ocupa 45% del ancho, se adapta */
+     background-color: #f5f5f5; /* color de fondo opcional */
+     padding: 15px;
+     border-radius: 5px;
+     text-align: center;
+}
+
 .rotate_circle {
      animation-name: rotate_all;
      animation-duration: 2s;
