@@ -362,6 +362,10 @@ button {
      padding-left: 22%;
 }
 
+#midil_img_pc {
+     padding-left: 60%;
+}
+
 .midil_img::before {
      position: absolute;
      content: "";
