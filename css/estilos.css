@@ -1,0 +1,129 @@
+/* ---------- Estilos base ---------- */
+
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.galeria-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+.casilla {
+  text-align: center;
+  cursor: pointer;
+}
+
+.portada {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.portada:hover {
+  transform: scale(1.05);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  backdrop-filter: blur(6px);
+  background-color: rgba(0,0,0,0.4);
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 5% auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 12px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.cerrar2 {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 28px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #555;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.carousel button {
+  font-size: 28px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  transition: transform 0.2s;
+}
+
+.carousel button:hover {
+  transform: scale(1.2);
+}
+
+.slide {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  transition: opacity 0.3s ease;
+}
+
+/* ---------- Estilos Responsive ---------- */
+
+@media (max-width: 768px) {
+  .galeria-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .modal-content {
+    width: 95%;
+    margin-top: 60px;
+    padding: 15px;
+  }
+
+  .carousel {
+    flex-direction: column;
+  }
+
+  .slide {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .carousel button {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  h3, p {
+    text-align: center;
+    padding: 0 10px;
+  }
+}
