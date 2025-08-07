@@ -7,12 +7,14 @@ body {
   padding: 0;
 }
 
-.galeria-container {
+.galeria-container-fotos {
   display: flex;
   justify-content: center;
   gap: 40px;
   margin-top: 60px;
   flex-wrap: wrap;
+  padding-left: 30%;
+
 }
 
 .casilla {
@@ -56,10 +58,8 @@ body {
 }
 
 .cerrar2 {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  font-size: 28px;
+  display: flex;
+  font-size: 30px;
   cursor: pointer;
   font-weight: bold;
   color: #555;

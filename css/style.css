@@ -878,6 +878,14 @@ ul.location_icon li a:hover {
      -o-animation-timing-function: linear;
 }
 
+.entrenadores {
+     display: flex;
+     justify-content: center;
+     gap: 2%;
+     margin-bottom: 2%;
+     flex-wrap: wrap;
+}
+
 @-webkit-keyframes rotate_all {
      from {
           -webkit-transform: rotatey(0deg);
